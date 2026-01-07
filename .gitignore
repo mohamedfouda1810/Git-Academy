@@ -1,0 +1,36 @@
+# ===========================
+# NODE / FRONTEND (React)
+# ===========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs
+*.log
+
+# ===========================
+# .NET / BACKEND (C#)
+# ===========================
+# Important: Ignore build output
+[Bb]in/
+[Oo]bj/
+
+# User-specific settings (keep these ignored)
+*.user
+*.userosscache
+*.suo
+.vscode/
+.idea/
+
+# ===========================
+# ENV VARIABLES (Security)
+# ===========================
+.env
+.DS_Store
+
+ 
